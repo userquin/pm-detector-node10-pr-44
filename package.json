@@ -1,0 +1,40 @@
+{
+  "name": "pm-detector-node10-pr-44",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.5.2",
+  "type": "module",
+  "scripts": {
+    "build:unbuild": "unbuild",
+    "build:pkgroll": "pkgroll --clean-dist",
+    "build:tsup": "tsup src/index.ts --dts --target esnext --format cjs,esm"
+  },
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "package-manager-detector": "file:package-manager-detector-0.2.11.tgz"
+  },
+  "devDependencies": {
+    "pkgroll": "^2.11.2",
+    "tsc": "^2.0.4",
+    "tsup": "^8.4.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "unbuild": "^3.5.0"
+  }
+}
