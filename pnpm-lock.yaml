@@ -986,7 +986,7 @@ packages:
     resolution: {integrity: sha512-UEZIS3/by4OC8vL3P2dTXRETpebLI2NiI5vIrjaD/5UtrkFX/tNbwjTSRAGC/+7CAo2pIcBaRgWmcBBHcsaCIw==}
 
   package-manager-detector@file:package-manager-detector-0.2.11.tgz:
-    resolution: {integrity: sha512-lF7DwDRuh0iPXVdFu7SXQIP75cmdzwjh3AQ0KSWS98t19pD+M3I57I5CyErUdrXWoQMnnLPtT8rY11cxdp3zxQ==, tarball: file:package-manager-detector-0.2.11.tgz}
+    resolution: {integrity: sha512-w0ZdPWA5tn7er33GdFPJuZIYPo/DQWxqH9+LyZOJFH/ObUnHs4AbJX5KW1X9Anwf69gT+rpi/UWIHzST7RtFag==, tarball: file:package-manager-detector-0.2.11.tgz}
     version: 0.2.11
 
   path-key@3.1.1:

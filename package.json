@@ -26,9 +26,6 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {
-    "package-manager-detector": "file:package-manager-detector-0.2.11.tgz"
-  },
   "devDependencies": {
     "pkgroll": "^2.11.2",
     "tsc": "^2.0.4",
@@ -36,5 +33,8 @@
     "tsx": "^4.19.3",
     "typescript": "^5.8.2",
     "unbuild": "^3.5.0"
+  },
+  "dependencies": {
+    "package-manager-detector": "file:package-manager-detector-0.2.11.tgz"
   }
 }
